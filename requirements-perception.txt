@@ -1,0 +1,7 @@
+# Install in the modern Python environment used for model training/inference.
+# The CARLA 0.9.8 client and collector should keep their egg-compatible interpreter.
+torch>=2.0
+snntorch>=0.7
+numpy>=1.23
+Pillow>=9.0
+matplotlib>=3.6

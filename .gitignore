@@ -1,0 +1,22 @@
+# Ignore pyc and cache
+*.pyc
+__pycache__/
+
+# Ignore idea
+.idea/*
+
+.env
+.vscode
+
+# Ignore pickle
+*.pickle
+
+# Generated perception artifacts and datasets
+/data/perception/
+/perception/checkpoints/
+/perception/logs/
+/results/
+
+# Ignore personal csv
+*.csv
+!/data/test_train_set/*.csv
